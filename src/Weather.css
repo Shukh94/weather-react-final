@@ -5,12 +5,12 @@
 .Weather {
   font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
   border: none;
-  max-width: 70%;
+  max-width: 90%;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 0 30px 50px #41326414;
   border-radius: 16px;
-  padding: 40px;
+  padding: 20px;
   color: rgb(135, 135, 135);
 }
 
@@ -43,7 +43,8 @@
     "Lucida Sans", Arial, sans-serif;
   background: #885df1;
   font-weight: bold;
-  font-size: 18px;
+  width: 100%;
+  font-size: 1rem;
   line-height: 0;
   padding: 15px 0;
   border: none;
@@ -71,4 +72,22 @@
   color: #885df1;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .Weather {
+    max-width: 70%;
+    padding: 40px;
+  }
+  .Weather .btn {
+    width: auto; /* Regular width for larger screens */
+    font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Weather .search-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }

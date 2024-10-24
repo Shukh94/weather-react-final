@@ -1,5 +1,6 @@
 .weather-info {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -15,9 +16,9 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin: 20px 0 10px 0;
-  line-height: 29px;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 2.5rem;
+  line-height: 3rem;
   line-height: 48px;
   color: #7f3cd6;
 }
@@ -62,8 +63,8 @@
   font-size: 14px;
 }
 .AnimateIcon {
-  margin-left: 0;
-  margin-right: 5px;
+  width: 100%;
+  max-width: 50px;
 }
 
 .Weather li strong {
@@ -73,4 +74,29 @@
 
 .Weather canvas {
   margin: 10px 0;
+}
+
+@media (min-width: 768px) {
+  .weather-info {
+    flex-direction: row; /* Switch to row layout on larger screens */
+    justify-content: space-between;
+  }
+
+  .Weather h1 {
+    .Weather h1 {
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+  }
+
+  .AnimateIcon {
+    max-width: 36px; /* Adjust for larger screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .Weather h1 {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
 }
