@@ -75,28 +75,3 @@
 .Weather canvas {
   margin: 10px 0;
 }
-
-@media (min-width: 768px) {
-  .weather-info {
-    flex-direction: row; /* Switch to row layout on larger screens */
-    justify-content: space-between;
-  }
-
-  .Weather h1 {
-    .Weather h1 {
-      font-size: 2.5rem;
-      line-height: 3rem;
-    }
-  }
-
-  .AnimateIcon {
-    max-width: 36px; /* Adjust for larger screens */
-  }
-}
-
-@media (max-width: 600px) {
-  .Weather h1 {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-  }
-}
