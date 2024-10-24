@@ -14,18 +14,18 @@ function WeatherForecast({ coordinates }) {
       const { lat, lon } = coordinates;
       const apiUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
-      console.log("API URL:", apiUrl); // Log the API URL
-      console.log("Coordinates:", coordinates); // Log the coordinates
+      console.log("API URL:", apiUrl); 
+      console.log("Coordinates:", coordinates); 
 
       axios
         .get(apiUrl)
         .then((response) => {
-          console.log("API Response:", response.data); // Log the response data
+          console.log("API Response:", response.data); 
           const dailyForecast = extractDailyForecast(response.data.list);
           setForecast(dailyForecast);
         })
         .catch((error) => {
-          console.error("There was an error fetching the forecast data:", error); // Log the error
+          console.error("There was an error fetching the forecast data:", error); 
           setError(error);
         });
     }
@@ -54,7 +54,7 @@ function WeatherForecast({ coordinates }) {
     });
 
     // Convert dailyData object to an array for easier rendering and return the first 7 days
-    return Object.keys(dailyData).slice(0, 7).map((day) => ({
+    return Object.keys(dailyData).slice(0, 8).map((day) => ({
       day,
       maxTemp: dailyData[day].maxTemp,
       minTemp: dailyData[day].minTemp,

@@ -16,8 +16,8 @@ function FormattedDate(prop) {
   let minutes = prop.date.getMinutes();
   let ampm = hours >= 12 ? "PM" : "AM";
 
-  // Convert to 12-hour format
-  hours = hours % 12 || 12; // Converts '0' to '12' for midnight
+
+  hours = hours % 12 || 12; 
 
   // Add leading zero to minutes if necessary
   minutes = minutes < 10 ? `0${minutes}` : minutes;

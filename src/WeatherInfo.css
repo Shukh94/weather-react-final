@@ -1,7 +1,68 @@
+.weather-info {
+  display: flex;
+  align-items: center;
+}
+
 .WeatherInfo {
   margin-bottom: 10px;
 }
 
 .info-right {
   text-align: end;
+}
+
+.Weather h1 {
+  margin: 20px 0 10px 0;
+  line-height: 29px;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 48px;
+  color: #7f3cd6;
+}
+
+.Weather .info-left {
+  margin: 0;
+  padding: 0;
+}
+
+.info-right li {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.Weather .info-left li {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.other-info {
+  color: rgba(39, 33, 66, 0.4);
+  /* display: flex;
+  gap: 20px; */
+  list-style: none;
+  text-align: start;
+  margin-left: 8px;
+  padding: 0;
+  font-size: 14px;
+}
+.AnimateIcon {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+.Weather li strong {
+  color: #f65282;
+  font-weight: normal;
+}
+
+.Weather canvas {
+  margin: 10px 0;
 }

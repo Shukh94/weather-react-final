@@ -53,7 +53,7 @@ function Weather({ defaultCity }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/images/logo_2.png" className="logo" alt="SheCodes Logo" />
+          <img src="/images/logo_2.png" className="logo" alt="ShakilaShukla Logo" />
         </a>
         <form onSubmit={handleSubmit}>
           <div className="row mt-3">
@@ -77,6 +77,32 @@ function Weather({ defaultCity }) {
         </form>
         <WeatherInfo data={weatherData} />
         <WeatherForecast coordinates={weatherData.coordinates} />
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.shakilashukla.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Shakila Shukla
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Shukh94/weather-react-app-final-p1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://weather-app-master-1-shukla.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
       </div>
     );
   } else {
