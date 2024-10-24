@@ -76,11 +76,11 @@
 
 @media (min-width: 768px) {
   .Weather {
-    max-width: 70%;
+    max-width: 90%;
     padding: 40px;
   }
   .Weather .btn {
-    width: auto; /* Regular width for larger screens */
+    width: auto;
     font-size: 1.125rem;
   }
 }
