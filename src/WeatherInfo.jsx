@@ -26,15 +26,15 @@ function WeatherInfo(prop) {
           </ul>
         </div>
       </div>
-      {/* <div className="row">
+      <div className="row">
         <div className="col-6 other-info">
           <ul className="other-info">
-            <li>Feels Like: {props.data.feels}°C</li>
-            <li>max: {props.data.maxTemp}°C</li>
-            <li>Min: {props.data.minTemp}°C</li>
+            <li>Feels Like: {Math.round(prop.data.feels)}°C</li>
+            <li>max: {Math.round(prop.data.maxTemp)}°C</li>
+            <li>Min: {Math.round(prop.data.minTemp)}°C</li>
           </ul>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
