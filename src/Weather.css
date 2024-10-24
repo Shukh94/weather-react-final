@@ -77,7 +77,7 @@
 @media (min-width: 768px) {
   .Weather {
     max-width: 90%;
-    padding: 10px;
+    padding: 40px;
   }
   .Weather .btn {
     width: auto;
