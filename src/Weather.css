@@ -9,7 +9,7 @@
 }
 
 .Weather {
-  /* font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif; */
+  font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
   border: 1px solid rgb(208, 208, 208);
   /* max-width: 700px; */
   margin: 0 auto;
@@ -22,7 +22,7 @@
 
 .Weather .logo {
   max-width: 150px;
-  display: block;
+  margin-bottom: 20px;
 }
 
 .Weather form {
@@ -75,7 +75,7 @@
   font-weight: bold;
   font-size: 38px;
   line-height: 48px;
-  color: #595860;
+  color: #7f3cd6;
 }
 
 .Weather .info-left {

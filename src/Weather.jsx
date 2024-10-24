@@ -48,6 +48,13 @@ function Weather({ defaultCity }) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
+              <a
+          href="https://www.shakilashukla.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/images/logo_2.png" className="logo" alt="SheCodes Logo" />
+        </a>
         <form onSubmit={handleSubmit}>
           <div className="row mt-3">
             <div className="col-9">

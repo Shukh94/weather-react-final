@@ -1,5 +1,15 @@
 .WeatherForecast {
   text-align: center;
+  padding: 30px;
+}
+
+.WeatherForecast-day {
+  color: rgb(48, 47, 47);
+}
+
+.WeatherForecast-temp {
+  font-weight: 400;
+  color: #7f3cd6;
 }
 
 .WeatherForecast-temp-min {
