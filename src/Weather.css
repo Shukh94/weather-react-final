@@ -25,6 +25,8 @@
 }
 
 .Weather .search-input {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background: #f9f7fe;
   border: none;
   padding: 15px 20px;
@@ -37,15 +39,22 @@
 }
 
 .Weather .btn {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background: #885df1;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 0;
   padding: 15px 0;
   border: none;
   height: 50px;
 }
+.Weather .btn:hover {
+  background: #965df1;
+}
 
 .Weather .search-input::placeholder {
+  font-size: 17px;
   line-height: 20px;
   color: rgba(39, 33, 66, 0.4);
 }
@@ -60,4 +69,6 @@
 
 .Weather footer a {
   color: #885df1;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }

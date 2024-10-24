@@ -12,6 +12,8 @@
 }
 
 .Weather h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 20px 0 10px 0;
   line-height: 29px;
   font-weight: bold;
@@ -26,6 +28,8 @@
 }
 
 .info-right li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-weight: 500;
   margin-bottom: 5px;
   color: rgba(39, 33, 66, 0.4);
@@ -36,6 +40,8 @@
 
 .Weather .info-left li {
   font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin-bottom: 5px;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
@@ -44,6 +50,8 @@
 }
 
 .other-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: rgba(39, 33, 66, 0.4);
   /* display: flex;
   gap: 20px; */
