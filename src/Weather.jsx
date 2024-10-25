@@ -48,12 +48,16 @@ function Weather({ defaultCity }) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-              <a
+        <a
           href="https://www.shakilashukla.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/images/logo_2.png" className="logo" alt="ShakilaShukla Logo" />
+          <img
+            src="/images/logo_2.png"
+            className="logo"
+            alt="ShakilaShukla Logo"
+          />
         </a>
         <form onSubmit={handleSubmit}>
           <div className="row mt-3">
@@ -93,14 +97,6 @@ function Weather({ defaultCity }) {
             rel="noopener noreferrer"
           >
             open-sourced on GitHub
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://weather-app-master-1-shukla.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            hosted on Netlify
           </a>
         </footer>
       </div>
