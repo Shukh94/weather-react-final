@@ -1,8 +1,7 @@
-
 import FormattedDate from "./formattedDate";
 import AnimateIcon from "./AnimateIcon";
 import WeatherTemp from "./WeatherTemp";
-import "./WeatherInfo.css"
+import "./WeatherInfo.css";
 
 function WeatherInfo(prop) {
   return (

@@ -1,4 +1,3 @@
-
 import ReactAnimatedWeather from "react-animated-weather";
 
 function AnimateIcon(prop) {
