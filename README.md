@@ -17,7 +17,7 @@ A simple React app that shows weather information for any city using OpenWeather
 
 ## 🌐 Live Demo
 
-👉 [Click here to view live](react-weather-app-shakilashukla.netlify.app)
+👉 [Click here to view live](https://react-weather-app-shakilashukla.netlify.app/)
 
 ## 🔧 Installation
 
